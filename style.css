@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+.title-grid {
+  width: 365px;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.main_container {
+  background-color: rgb(248, 248, 248);
+  max-width: 375px;
+  height: 550vh;
+  margin: auto;
+}
+
+.main_section {
+  margin: 114px 0;
+  padding: 0 35px;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.h2 {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p {
+  line-height: 24px;
+  color: #344563;
+}
+
+a {
+  text-decoration: none;
+}
+
+.media_p {
+  color: #7f8cff;
+}
+
+.media_ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 170px;
+}
+
+.media_li a:hover {
+  cursor: pointer;
+}
+
+.media_header {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.snapshots {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 80px;
+  width: 325px;
+  box-sizing: border-box;
+  margin-top: 200px;
+  place-items: center;
+}
+
+.title {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #f1f3f7;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 327px;
+}
+
+.title:nth-of-type(even) {
+  height: 596px;
+}
+
+.textTitle {
+  height: 288px;
+  padding-left: 5px;
+}
+
+.text {
+  font-size: 13px;
+  padding-left: 5px;
+  width: 327px;
+}
+
+.text .skill h4 {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+}
+
+.primary ul {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 215px;
+}
+
+.primary ul li {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+section .languages {
+  padding: 30px 0;
+}
+
+section .languages ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+section .languages ul li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  background-color: #fff;
+  color: #000;
+}
+
+.text .skill ul {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #a0a3a8;
+}
+
+.text ul li:first-child {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #344563;
+}
+
+.skill {
+  padding-left: 3px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  background: #fff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: fit-content;
+}
+
+.btn:hover {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
+}
+
+.btn-primary {
+  width: 120px;
+  letter-spacing: 0.03em;
+  margin: 10px 0;
+}
+
+.btn-resume {
+  text-decoration: none;
+}
+
+.texts {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.arrow-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 18rem;
+  font-weight: normal;
+}
+
+.ul .first-child {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #344563;
+}
+
+.about_image {
+  position: relative;
+  bottom: -9px;
+}
+
+.details {
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  width: 375px;
+  margin: 70px auto;
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  padding: 100px 0;
+}
+
+.about_header {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
