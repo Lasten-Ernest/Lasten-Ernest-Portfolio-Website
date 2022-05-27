@@ -253,7 +253,6 @@ section .languages ul li {
 }
 
 .about {
-  width: 375px;
   margin: 70px auto;
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -267,4 +266,10 @@ section .languages ul li {
   color: #172b4d;
   margin-bottom: 10px;
   margin-top: 0;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  padding: 10px 9%;
 }
