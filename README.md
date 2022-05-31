@@ -1,38 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name : Lasten-Ernest-portfolio website
+# Project Name : MOBILE PORTFOLIO WEBSITE
 
-> This is a continuation to a mobile version portfolio website belonging to Ernest Lasten as a web developer.
-> This website provides information about Ernest Lasten, his projects, skills, knowledge and contact details.
+> Description the project.
+# Thia is a mobile portfolio website for Ernest Lasten, a web developer.
+It contains information about his projects, skills, experience and includes his contact details. 
 
 
 ## Built With
 
-- HTML
-- CSS
+- HTML AND CSS
+- JAVASCRIPT
+
 
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+
+** To use this project, just clone it into your computer
+** open it with your presefered browser.
 
 
-1. Clone this project into your computer and open the folder
-2. Right click on the index.html file and open with any browser
-
-
-## Authors
+## Author
 
 👤 **Ernest Lasten**
 
 - GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
-- Twitter: [@Lasten-Ernest](https://twitter.com/Lasten-Ernest)
-- LinkedIn: [ernest-lasten](https://linkedin.com/in/ernest-lasten)
+- Twitter: [@ErnestLasten](https://twitter.com/ErnestLasten)
+- LinkedIn: [ernestlasten](https://linkedin.com/in/ernestlasten)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 
 ## Show your support
 
@@ -42,4 +41,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
