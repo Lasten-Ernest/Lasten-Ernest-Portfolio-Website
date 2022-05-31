@@ -306,7 +306,7 @@ section .languages ul li {
 }
 
 .about {
-  margin: 70px auto;
+  margin: 70px auto 0px;
   background-color: #fff;
   border-top-right-radius: 100px;
   padding: 100px 0;
@@ -326,3 +326,47 @@ section .languages ul li {
   justify-content: center;
   padding: 10px 9%;
 }
+
+footer {
+  background-color: white;
+}
+
+form {
+  background: url(assets/contact-form-background.svg) no-repeat;
+  background-position: top 20px right;
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 24px 45px 24px;
+}
+
+form:last-child {
+  align-self: flex-start;
+}
+
+form > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: white;
+  margin-bottom: 12px;
+}
+
+form > p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+
