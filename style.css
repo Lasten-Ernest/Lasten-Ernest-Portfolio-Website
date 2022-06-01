@@ -80,10 +80,6 @@ html {
   line-height: 24px;
 }
 
-a {
-  text-decoration: none;
-}
-
 .media_p {
   color: #7f8cff;
 }
@@ -323,10 +319,6 @@ form {
   padding: 100px 24px 5px 24px;
 }
 
-form:last-child {
-  align-self: flex-start;
-}
-
 form > h2 {
   font-size: 40px;
   font-weight: 700;
@@ -336,7 +328,7 @@ form > h2 {
   margin-bottom: 12px;
 }
 
-form > p {
+.contact-infor {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -375,7 +367,7 @@ form {
   flex-direction: column;
 }
 
-form > .contact_btn {
+.contact_btn {
   color: #6070ff;
   background-color: white;
   border-radius: 8px;
