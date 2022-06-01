@@ -306,7 +306,9 @@ section .languages ul li {
   justify-content: center;
   padding: 10px 9%;
 }
+
 /* The contact form  */
+
 footer {
   background-color: white;
   width: 375px;
@@ -406,14 +408,10 @@ input {
   padding: 15px;
 }
 
-form:last-child {
-  margin-right:auto;
-}
-
 .footer-shape {
   width: 134px;
   margin-bottom: 1px;
-  background: #0D151E;
+  background:#0d151e;
   border-radius: 10px;
   margin-top: 1px;
 }
