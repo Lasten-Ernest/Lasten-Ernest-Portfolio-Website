@@ -329,6 +329,9 @@ section .languages ul li {
 /* The contact form  */
 footer {
   background-color: white;
+  width: 375px;
+  height: 779;
+
 }
 
 form {
@@ -361,7 +364,7 @@ form > p {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin: 0px;
+  margin-bottom: 25px;
 }
 
 input,
@@ -374,8 +377,7 @@ textarea {
 
 input {
   height: 48px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 17px;
 }
 
 textarea {
@@ -388,7 +390,6 @@ textarea::-webkit-input-placeholder {
   line-height: 24px;
   color: #b3bac5;
 }
-
 
 form {
   display: flex;
@@ -410,6 +411,12 @@ form > .contact_btn {
   margin-top: 22px;
   align-self: flex-start;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact_btn:hover {
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
 }
 
 ::-webkit-input-placeholder, 
@@ -423,4 +430,11 @@ input {
 form:last-child {
   margin-right:auto;
 }
-  
+
+.footer-shape {
+  width: 134px;
+  left: calc(50% - 134px/2 - 0.5px);
+  margin-bottom: 1px;
+  background: #0D151E;
+  border-radius: 10px;
+}
