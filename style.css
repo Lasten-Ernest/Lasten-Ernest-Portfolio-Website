@@ -3,11 +3,8 @@
 .main_container {
   background-color: #fff;
   max-width: 375px;
-  height: 100vh;
   background-image: url("assets/header-shapes-mobile.png");
   margin: auto;
-  max-width: 375px;
-  height: 550vh;
 }
 
 body {
@@ -312,7 +309,6 @@ section .languages ul li {
 footer {
   background-color: white;
   width: 375px;
-  height: 779;
 }
 
 form {
@@ -324,7 +320,7 @@ form {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 100px 24px 45px 24px;
+  padding: 100px 24px 5px 24px;
 }
 
 form:last-child {
@@ -345,7 +341,7 @@ form > p {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 input,
@@ -392,7 +388,6 @@ form > .contact_btn {
   margin-top: 22px;
   align-self: flex-start;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .contact_btn:hover {
@@ -406,4 +401,9 @@ input {
   color: #172b4d;
   line-height: 20px;
   padding: 15px;
+}
+
+.footer-shape {
+  margin-top: 50px;
+  margin-bottom: 1px;
 }
