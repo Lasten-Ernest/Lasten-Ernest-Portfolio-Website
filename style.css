@@ -58,7 +58,6 @@ a {
 }
 
 /* SECOND PART OF PORTFOLIO WEBSITE  */
-
 * {
   box-sizing: border-box;
 }
@@ -279,7 +278,7 @@ section .languages ul li {
 }
 
 .about {
-  margin: 70px auto 0px;
+  margin: 70px auto;
   background-color: #fff;
   border-top-right-radius: 100px;
   padding: 100px 0;
@@ -360,13 +359,6 @@ textarea::-webkit-input-placeholder {
   color: #b3bac5;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 .contact_btn {
   color: #6070ff;
   background-color: white;
@@ -387,7 +379,8 @@ form {
   cursor: pointer;
 }
 
-::-webkit-input-placeholder, 
+::-webkit-input-placeholder,
+ 
 input {
   font-size: 17px;
   color: #172b4d;
