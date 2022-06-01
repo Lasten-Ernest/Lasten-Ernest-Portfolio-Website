@@ -311,7 +311,6 @@ footer {
   background-color: white;
   width: 375px;
   height: 779;
-
 }
 
 form {
@@ -413,8 +412,8 @@ form:last-child {
 
 .footer-shape {
   width: 134px;
-  left: calc(50% - 134px/2 - 0.5px);
   margin-bottom: 1px;
   background: #0D151E;
   border-radius: 10px;
+  margin-top: 1px;
 }
