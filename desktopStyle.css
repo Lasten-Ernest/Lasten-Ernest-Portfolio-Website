@@ -216,7 +216,7 @@
   background-color: blue;
   transition-duration: 2s;
   transition-timing-function: ease in;
-  transition-delay: 0.5s;
+  transition-delay: 0.3s;
 }
 
 .btn-primary {
