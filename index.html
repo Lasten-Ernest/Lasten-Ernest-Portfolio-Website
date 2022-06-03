@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktopStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>ERNEST Mobile Portfolio Website</title>
+    <title>ERNEST Portfolio Website</title>
 </head>
 <body>
     <!-- defining the header and wraping it in divs and will contain the logo-->
@@ -16,9 +16,14 @@
             <header class="main_header">
               <nav class="navbar">
                 <a href="#" class="my-portfolio-logo">
-                    <img src="./assets/MyLogo.png" alt="My-logo"/>
+                    <img class="my-logo" src="./assets/MyLogo.png" alt="My-logo"/>
                 </a>
-                <a><img src="./assets/menu.png" alt="menu-icon"/></a>
+                <a><img class="menu_icon" src="./assets/menu.png" alt="menu-icon"/></a>
+                <ul class="nav-content">
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
               </nav>
             </header>
     <!-- Defining the main section for the description of the developer -->
@@ -56,17 +61,18 @@
         </div>
    
 <!-- SECOND PART OF MOBILE PORTFOLIO -->
-<div class="main_container"> 
-    <div class="inside_container"> 
+    <div class="main_container"> 
+      <div class="inside_container"> 
         <section class="snapshots">
         <div class="title-grid">
             <div>
-            <img src="./assets/snapshoot1.png" alt="portfolio snapshoot1"/>
+              <img class="mobile_snapshot" src="./assets/snapshoot1.png" alt="portfolio snapshoot1"/>
+              <img class="desktop_snapshot snapshot_1" src="./desktop_assets/snapshoot_1.png" alt="desktop snapshoot1">
             </div>
             <div class="textTitle">
             <div class="text">
             <div class="skill">
-                <h4>Tonic</h4>
+                <h4 class="project-title">Tonic</h4>
                 <ul class="ul">
                 <li class="first-child">CANOPY</li>
                 <li>Back End Dev</li>
@@ -79,11 +85,11 @@
             or sign-ups required.
             </p>
             <div class="primary">
-            <ul>
+              <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-            </ul>
+              </ul>
             </div>
             <button class="btn btn-primary" type="button">See Project</button>
         </div>
@@ -91,6 +97,7 @@
         <div class="title grid">
         <div>
             <img src="./assets/Snapshoot3.png" alt="portfolio Snapshoot3"/>
+            <img class="desktop_snapshot snapshot_2" src="./desktop_assets/snapshoot_2.png" alt="desktop snapshot2">
         </div>
         <div class="textTitle">
             <div class="text">
@@ -120,6 +127,7 @@
         <div class="title grid">
         <div>
             <img src="./assets/Snapshoot2.png" alt="portfolio Snapshoot2"/>
+            <img class="desktop_snapshot snapshoot_3" src="./desktop_assets/snapshoot_3.png" alt="desktop snapshoot 3">
         </div>
         <div class="textTitle">
             <div class="text">
@@ -148,13 +156,13 @@
         </div>
         <div class="title grid">
         <div>
-            <img src="./assets/snapshot4.png" alt="portfolio"/>
+            <img class="mobile_snapshoot_4" src="./assets/snapshot4.png" alt="portfolio"/>
+            <img class="desktop_snapshot snapshoot_4" src="./desktop_assets/snapshoot_4.png" alt="desktop snapshoot 4">
         </div>
         <div class="textTitle">
             <div class="text">
             <div class="skill">
                 <h4>Multi-Post Stories</h4>
-
                 <ul class="ul">
                 <li class="first-child">CANOPY</li>
                 <li>Back End Dev</li>
@@ -177,11 +185,11 @@
         </div>
         </div>
     </section>
-    <section class="about">
-        <div class="container">
+    <section class="about" id="about-section">
+        <div class="container" id="infor">
         <div>
-            <h2 class="about_header">About<br />Myself</h2>
-            <p class="details">
+            <h2 class="about_header about-myself">About<br />Myself</h2>
+            <p class="details description">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience!
             If you like what you see and have a project you need coded,
@@ -223,14 +231,13 @@
         <div class="languages">
         <div>
             <ul>
-            <li aria-expanded="true" aria-haspopup="true">
+              <li aria-expanded="true" aria-haspopup="true" class="language-list">
                 Languages
-                
                 <i class="fa fa-angle-down"></i>
-            </li>
+              </li>
             </ul>
             <div class="about_image">
-                <img src="./assets/webpng.png" alt="web image">
+                <img class="language-list-item" src="./assets/webpng.png" alt="web image">
             </div>
         </div>
         <div>
@@ -254,21 +261,23 @@
         </div>
     </section>
     </div>
+
     <footer>
-			<form action="https://formspree.io/f/xwkyyyvp" method="post">
-				<h2>Contact me</h2>
-				<p class="contact-infor">
-					If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
-				</p>
-				<input name="name" type="text" placeholder="Name" maxlength="30" required>
-				<input name="email" type="email" placeholder="Email" required>
-				<textarea name="message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
-				<button class="contact_btn" type="submit">
-                    Get In Touch
-                </button>
-                <img class="footer-shape" src="./assets/shape.png" alt="footer shape">
-			</form>
+      <form action="https://formspree.io/f/xwkyyyvp" method="post">
+        <h2>Contact me</h2>
+        <p class="contact-infor">
+            If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+        </p>
+        <input name="name" type="text" placeholder="Name" maxlength="30" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <textarea name="message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
+        <button class="contact_btn submit-btn" type="submit">
+            Get In Touch
+        </button>
+        <img class="footer-shape" src="./assets/shape.png" alt="footer shape">
+      </form>
     </footer>
+    
     </div>
 </div>
 </body>
