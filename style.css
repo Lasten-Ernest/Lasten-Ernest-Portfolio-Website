@@ -21,13 +21,15 @@
 
 .main_container {
   background-color: #fff;
-  background-image: url("assets/header-shapes-mobile.png");
+  background-image: url("assets/header-shapes-mobile.png") no-repeat;
   margin: auto;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
+  min-width: 100%;
+  height: 100vh;
 }
 
 .main_section {
