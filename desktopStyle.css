@@ -191,4 +191,20 @@
   animation: spin 3s;
   cursor: pointer;
 }
+
+.btn-primary {
+  transition: background-color 0.5s ease-in 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+  transition-duration: 2s;
+  transition-timing-function: ease in;
+  transition-delay: 0.5s;
+}
+
+.btn-primary {
+  width: 130px;
+}
+
   
