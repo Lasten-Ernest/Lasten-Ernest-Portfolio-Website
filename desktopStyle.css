@@ -24,7 +24,6 @@
 
   .container {
     background: url(desktop_assets/Header-desktop.svg) no-repeat;
-    padding: 240px 225px 180px;
     border-bottom-left-radius: 150px;
   }
 
@@ -51,14 +50,14 @@
   }
 
   .main_container {
-    display: flex;
+   
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 114px;
   }
 
-  .inside_container {
+  .desktop_container {
     display: flex;
     width: 100%;
     padding: 24px;
@@ -169,7 +168,6 @@
     max-width: 570px;
   }
 
-
   input,
   textarea {
     max-width: 447px;
@@ -179,4 +177,18 @@
     align-self: center;
   }
 }  
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg)
+  } 
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-logo {
+  animation: spin 3s;
+  cursor: pointer;
+}
   
