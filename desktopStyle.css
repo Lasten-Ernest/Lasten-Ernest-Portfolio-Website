@@ -180,15 +180,44 @@
 
 @keyframes spin {
   from {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
+    width: initial;
+    
   } 
+  
+  25% {
+    width: 25%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  75% {
+    width: 25%;
+  }
+
   to {
     transform: rotate(360deg);
+    width: intial;
   }
 }
 
 .my-logo {
   animation: spin 3s;
   cursor: pointer;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-500%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.h1 {
+  animation: drop 3s;
 }
   
