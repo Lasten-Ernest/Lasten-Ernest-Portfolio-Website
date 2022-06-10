@@ -18,10 +18,6 @@ body {
   justify-content: center;
 }
 
-.blue {
-  color: #6070ff;
-}
-
 #header {
   display: flex;
   align-items: center;
@@ -185,6 +181,13 @@ nav > ul {
   line-height: 24px;
   white-space: nowrap;
   cursor: pointer;
+}
+
+.project-button:hover {
+  background-color: blue;
+  transition-duration: 2s;
+  transition-timing-function: ease in;
+  transition-delay: 0.3s;
 }
 
 .project-button:disabled {
@@ -351,6 +354,36 @@ input {
 .footer-shape {
   margin-top: 50px;
   margin-bottom: 1px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    width: initial;
+  }
+
+  25% {
+    width: 25%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  75% {
+    width: 25%;
+  }
+
+  to {
+    transform: rotate(360deg);
+    width: intial;
+  }
+}
+
+.blue {
+  animation: spin 3s;
+  cursor: pointer;
+  color: #6070ff;
 }
 
 @media only screen and (min-width: 768px) {
