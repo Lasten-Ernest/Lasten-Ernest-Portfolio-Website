@@ -587,15 +587,4 @@ input {
   .project-button {
     width: 130px;
   }
-   
-  .project-button:hover {
-    background-color: blue;
-    transition-duration: 2s;
-    transition-timing-function: ease in;
-    transition-delay: 0.3s;
-  }
-  
-  .project-button {
-    width: 130px;
-  }
 }
