@@ -587,20 +587,7 @@ input {
   .project-button {
     width: 130px;
   }
-  
-  @keyframes drop {
-    from {
-      transform: translateY(-500%);
-    }
-    to {
-      transform: translateY(0%);
-    }
-  }
-  
-  .intro {
-    animation: drop 3s;
-  }
-
+   
   .project-button:hover {
     background-color: blue;
     transition-duration: 2s;
