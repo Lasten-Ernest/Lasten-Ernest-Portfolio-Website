@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name : MOBILE PORTFOLIO WEBSITE
+# Project Name : PORTFOLIO WEBSITE
 
 > Description the project.
-# Thia is a mobile portfolio website for Ernest Lasten, a web developer.
+# Thia is a portfolio website for Ernest Lasten, a web developer.
 It contains information about his projects, skills, experience and includes his contact details. 
 
 
