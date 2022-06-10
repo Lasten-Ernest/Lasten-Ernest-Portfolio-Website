@@ -576,4 +576,52 @@ input {
     animation: spin 3s;
     cursor: pointer;
   }    
+  
+.project-button:hover {
+    background-color: blue;
+    transition-duration: 2s;
+    transition-timing-function: ease in;
+    transition-delay: 0.3s;
+  }
+  
+  .project-button {
+    width: 130px;
+  }
+  
+  @keyframes drop {
+    from {
+      transform: translateY(-500%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+  .intro {
+    animation: drop 3s;
+  }
+
+  .project-button:hover {
+    background-color: blue;
+    transition-duration: 2s;
+    transition-timing-function: ease in;
+    transition-delay: 0.3s;
+  }
+  
+  .project-button {
+    width: 130px;
+  }
+  
+  @keyframes drop {
+    from {
+      transform: translateY(-500%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }
+  
+  .intro {
+    animation: drop 3s;
+  }
 }
